@@ -27,7 +27,7 @@ import fileReaders.JsonRead;
 public abstract class IOSLaunch {
 	public static AppiumDriver driver;
 	public static WebDriverWait wait;
-	private static String filepath ="/Users/ramyar/Documents/workspace/New/MVPD_Pilot_Project/resources/read.json";
+	private static String filepath ="/Users/rajb/MVPD_Pilot_Project/resources/read.json";
 	public static ArrayList<MVPD>mvpd = new ArrayList<MVPD>();
 	private static JsonRead jsonReader; 
 	public int MVPD_MAX =2;
